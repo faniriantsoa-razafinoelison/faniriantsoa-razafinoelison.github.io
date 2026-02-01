@@ -1,0 +1,9 @@
+@use "../scss/reset";
+@use "../scss/variables";
+@use "../scss/typography";
+
+h1 {
+    background: green;
+    text-align: center;
+    color: white;
+}

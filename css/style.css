@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --font-main: Arial, sans-serif;
+  --main-color: gray;
+}
+
+body {
+  font-family: var(--font-main);
+  color: var(--main-color);
+}
+
+h1 {
+  background: green;
+  text-align: center;
+  color: white;
+}
+
+/*# sourceMappingURL=style.css.map */
