@@ -1,0 +1,9 @@
+@charset "UTF-8";
+/* PC bas résolution */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .section-d .bloc-slide-txt {
+    min-height: 407px !important;
+  }
+}
+
+/*# sourceMappingURL=responsive-desktop.css.map */

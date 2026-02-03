@@ -1,0 +1,48 @@
+/* Tablette */
+@media (min-width: 768px) and (max-width: 991px) {
+  .section-a {
+    padding-top: 87px;
+    height: auto !important;
+    min-height: calc(100vh - 100px);
+  }
+  .section-a .wrp-content {
+    flex-direction: column-reverse;
+    padding: 0 !important;
+  }
+  .section-a .wrp-content .first-content {
+    align-items: center;
+  }
+  .section-a .wrp-content .second-content .big-title {
+    text-align: center;
+    font-size: 38px;
+  }
+  .section-a .wrp-content .third-content .count {
+    font-size: 28px !important;
+  }
+  .section-a .wrp-avatar-picture {
+    max-width: 35vh !important;
+    max-height: 35vh !important;
+  }
+  .second-title {
+    font-size: 28px !important;
+  }
+  .section-c .card-itm .wrp-img-card {
+    height: 160px !important;
+  }
+  .section-d .flex-part {
+    flex-direction: column;
+  }
+  .section-d .flex-part .part-a {
+    width: 100% !important;
+  }
+  .section-d .flex-part .part-b {
+    width: 100% !important;
+    gap: 20px;
+    align-items: center;
+  }
+  .section-d .contacts-section {
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=responsive-tablet.css.map */

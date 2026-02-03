@@ -1,6 +1,8 @@
-// $(document).ready(function () {
-
-// });
+$(document).ready(function () {
+    $(".toggle-nav-js").click(function () {
+        $("#mainHeader").toggleClass("show");
+    });
+});
 
 document.addEventListener('DOMContentLoaded', () => {
     const tabs = document.querySelectorAll('#v-pills-tab .nav-link');

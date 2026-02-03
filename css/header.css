@@ -12,15 +12,29 @@
 
 .nv-header {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   position: sticky;
   top: 0;
 }
+.nv-header .hamburger-nav {
+  display: none;
+  padding: 0px 0px 10px 10px;
+  background: transparent;
+  border: none;
+}
+.nv-header .hamburger-nav .icon {
+  width: 30px;
+  height: 30px;
+  color: rgb(255, 255, 255);
+}
 .nv-header .cntnt-left-nv-header {
-  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
 }
 .nv-header .cntnt-right-nv-header {
-  width: 100%;
+  flex: 1;
   display: flex;
   align-items: center;
   justify-content: space-between;

@@ -1,0 +1,67 @@
+/* Tablette */
+@media (min-width: 768px) and (max-width: 991px) {
+    .section-a {
+        padding-top: 87px;
+        height: auto !important;
+        min-height: calc(100vh - 100px);
+
+        .wrp-content {
+            flex-direction: column-reverse;
+            padding: 0 !important;
+
+            .first-content {
+                align-items: center;
+            }
+
+            .second-content {
+                .big-title {
+                    text-align: center;
+                    font-size: 38px;
+                }
+            }
+
+            .third-content {
+                .count {
+                    font-size: 28px !important;
+                }
+            }
+        }
+
+        .wrp-avatar-picture {
+            max-width: 35vh !important;
+            max-height: 35vh !important;
+        }
+    }
+
+    .second-title {
+        font-size: 28px !important;
+    }
+
+    .section-c {
+        .card-itm {
+            .wrp-img-card {
+                height: 160px !important;
+            }
+        }
+    }
+
+    .section-d {
+        .flex-part {
+            flex-direction: column;
+
+            .part-a {
+                width: 100% !important;
+            }
+
+            .part-b {
+                width: 100% !important;
+                gap: 20px;
+                align-items: center;
+            }
+        }
+
+        .contacts-section {
+            align-items: center;
+        }
+    }
+}
