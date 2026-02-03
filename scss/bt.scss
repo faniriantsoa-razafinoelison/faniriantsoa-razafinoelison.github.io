@@ -1,0 +1,26 @@
+.bt {
+    padding: 12px 26px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.bt-primary {
+    background: #1A95FA;
+    border: none;
+}
+
+.bt-secondary {
+    background: transparent;
+    border: 1px solid #1A95FA;
+    color: #1A95FA;
+}
+
+.bt-gradient {
+    background: linear-gradient(to right, #1A95FA, #3FA8FF);
+    color: white;
+}
+
+.bt-icon {
+    text-decoration: none;
+    color: #D8D8D8;
+}
