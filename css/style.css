@@ -752,7 +752,7 @@ body {
   outline: none;
 }
 .section-b .wrp-pills .nav-pills .nav-link.active::after {
-  opacity: 1;
+  opacity: 0;
 }
 .section-b .wrp-pills .nav-pills .icon-pill {
   width: 55px;
