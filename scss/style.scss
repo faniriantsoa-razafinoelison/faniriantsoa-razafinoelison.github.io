@@ -135,8 +135,8 @@ body {
     }
 
     .wrp-avatar-picture {
-        width: 65vh;
-        height: 65vh;
+        width: 60vh;
+        height: 60vh;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -159,8 +159,8 @@ body {
         }
 
         .content-avatar-picture {
-            width: 60%;
-            height: 60%;
+            width: 65%;
+            height: 65%;
             overflow: hidden;
             border-radius: 100%;
             z-index: 1;
@@ -494,7 +494,7 @@ body {
         content: "";
         position: absolute;
         background-image: url(../images/vector-rounded-v2.svg);
-        top: -100px;
+        top: -50px;
         bottom: auto;
         left: auto;
         right: 0;
@@ -663,3 +663,24 @@ strong {
         width: 50%;
     }
 }
+
+// .vector-filling-dashed {
+//     position: relative;
+//     width: 100%;
+
+//     &::after {
+//         content: "";
+//         position: absolute;
+//         top: 0;
+//         bottom: auto;
+//         left: 0;
+//         right: 0;
+//         margin: auto;
+//         background-image: url(../images/vector-dashed-v2.svg);
+//         background-position: center;
+//         background-size: cover;
+//         background-repeat: no-repeat;
+//         width: 100vw;
+//         height: 80vh;
+//     }
+// }

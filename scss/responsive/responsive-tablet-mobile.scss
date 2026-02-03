@@ -3,6 +3,8 @@
     .header-container {
         .nv-header {
             overflow: hidden;
+            height: 87px;
+            transition: 0.2s;
 
             .hamburger-nav {
                 display: flex;
@@ -13,7 +15,6 @@
             .cntnt-left-nv-header {
                 width: 100%;
                 padding: 20px 0px;
-                height: 87px;
             }
 
             .cntnt-right-nv-header {
@@ -21,10 +22,9 @@
                 gap: 20px;
                 overflow: hidden;
                 transition: 0.2s;
-                height: 0px;
                 width: 100%;
-                flex: auto;
-                padding-bottom: 0px;
+                flex: auto !important;
+                padding-bottom: 20px;
 
                 .wrp-itm-nv-header {
                     flex-direction: column;
@@ -46,10 +46,8 @@
         }
 
         &.show {
-            .cntnt-right-nv-header {
-                height: 224px;
-                padding-bottom: 20px;
-
+            .nv-header {
+                height: 311px;
             }
         }
     }

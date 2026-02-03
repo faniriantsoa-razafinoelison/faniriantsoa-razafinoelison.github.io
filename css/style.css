@@ -334,6 +334,8 @@ body {
 @media (min-width: 320px) and (max-width: 991px) {
   .header-container .nv-header {
     overflow: hidden;
+    height: 87px;
+    transition: 0.2s;
   }
   .header-container .nv-header .hamburger-nav {
     display: flex;
@@ -343,17 +345,15 @@ body {
   .header-container .nv-header .cntnt-left-nv-header {
     width: 100%;
     padding: 20px 0px;
-    height: 87px;
   }
   .header-container .nv-header .cntnt-right-nv-header {
     flex-direction: column;
     gap: 20px;
     overflow: hidden;
     transition: 0.2s;
-    height: 0px;
     width: 100%;
-    flex: auto;
-    padding-bottom: 0px;
+    flex: auto !important;
+    padding-bottom: 20px;
   }
   .header-container .nv-header .cntnt-right-nv-header .wrp-itm-nv-header {
     flex-direction: column;
@@ -369,9 +369,8 @@ body {
     width: 100%;
     text-align: center;
   }
-  .header-container.show .cntnt-right-nv-header {
-    height: 224px;
-    padding-bottom: 20px;
+  .header-container.show .nv-header {
+    height: 311px;
   }
   .footer-container .content-footer {
     flex-direction: column;
@@ -406,6 +405,7 @@ body {
   }
   .section-a .wrp-content .first-content .first-content-txt-b {
     font-size: 22px;
+    text-align: center;
   }
   .section-a .wrp-content .second-content {
     padding-top: 10px;
@@ -638,8 +638,8 @@ body {
   font-weight: 300;
 }
 .section-a .wrp-avatar-picture {
-  width: 65vh;
-  height: 65vh;
+  width: 60vh;
+  height: 60vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -661,8 +661,8 @@ body {
   background-size: contain;
 }
 .section-a .wrp-avatar-picture .content-avatar-picture {
-  width: 60%;
-  height: 60%;
+  width: 65%;
+  height: 65%;
   overflow: hidden;
   border-radius: 100%;
   z-index: 1;
@@ -951,7 +951,7 @@ body {
   content: "";
   position: absolute;
   background-image: url(../images/vector-rounded-v2.svg);
-  top: -100px;
+  top: -50px;
   bottom: auto;
   left: auto;
   right: 0;

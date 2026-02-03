@@ -38,3 +38,7 @@ $(document).ready(function () {
         }
     });
 });
+
+$(document).ready(function () {
+    AOS.init();
+});
