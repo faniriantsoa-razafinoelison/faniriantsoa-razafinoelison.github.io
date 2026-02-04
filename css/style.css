@@ -693,7 +693,7 @@ body {
   gap: 80px;
   position: relative;
 }
-.section-b .wrp-pills::after {
+.section-b .wrp-pills::before {
   content: "";
   position: absolute;
   width: 2px;
@@ -703,6 +703,31 @@ body {
   border-radius: 100px;
   height: 100%;
   margin: auto;
+}
+.section-b .wrp-pills::after {
+  content: "";
+  position: absolute;
+  bottom: auto;
+  right: 0;
+  left: 0;
+  width: 26px;
+  height: 26px;
+  border-radius: 100px;
+  background: #1e4858;
+  border: 5px solid #121213;
+  margin: auto;
+  opacity: 1;
+  transition: 0.3s;
+  z-index: 1;
+}
+.section-b .wrp-pills:has(.pills-a.active)::after {
+  top: 12%;
+}
+.section-b .wrp-pills:has(.pills-b.active)::after {
+  top: 45%;
+}
+.section-b .wrp-pills:has(.pills-c.active)::after {
+  top: 80%;
 }
 .section-b .wrp-pills .nav-pills {
   width: 50%;
@@ -729,30 +754,10 @@ body {
   gap: 20px;
   position: relative;
 }
-.section-b .wrp-pills .nav-pills .nav-link::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: -53px;
-  left: auto;
-  width: 26px;
-  height: 26px;
-  border-radius: 100px;
-  background: #1e4858;
-  border: 5px solid #121213;
-  margin: auto 0 auto auto;
-  opacity: 0;
-  transition: 0.3s;
-  z-index: 1;
-}
 .section-b .wrp-pills .nav-pills .nav-link.active {
   background: rgba(7, 7, 7, 0.4784313725);
   border: none;
   outline: none;
-}
-.section-b .wrp-pills .nav-pills .nav-link.active::after {
-  opacity: 0;
 }
 .section-b .wrp-pills .nav-pills .icon-pill {
   width: 55px;
