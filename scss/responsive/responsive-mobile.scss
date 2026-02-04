@@ -9,18 +9,18 @@
     }
 
     .p-graph {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     .bt {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 
     .wrp-itm-nv-header {
-        gap: 15px;
+        gap: 15px !important;
 
         .link-nv-header {
-            font-size: 14px;
+            font-size: 14px !important;
         }
     }
 
@@ -184,7 +184,7 @@
 
             .bloc-slide-txt {
                 padding: 40px 20px !important;
-                min-height: 350px !important;
+                min-height: 380px !important;
 
                 &::after {
                     background-size: 79%;
@@ -225,12 +225,12 @@
         .txt-footer {
             .txt-a {
                 text-align: center;
-                font-size: 14px;
+                font-size: 14px !important;
             }
 
             .txt-b {
                 text-align: center;
-                font-size: 14px;
+                font-size: 14px !important;
             }
         }
     }
