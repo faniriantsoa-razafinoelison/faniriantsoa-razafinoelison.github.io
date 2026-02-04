@@ -390,6 +390,7 @@ body {
   }
   .p-graph {
     font-size: 14px !important;
+    text-align: justify !important;
   }
   .bt {
     font-size: 14px !important;
@@ -435,7 +436,7 @@ body {
     display: none;
   }
   .section-a .wrp-content .third-content .p-graph {
-    text-align: center !important;
+    text-align: justify !important;
   }
   .section-a .wrp-content .third-content .count {
     font-size: 22px !important;
@@ -507,7 +508,7 @@ body {
     font-size: 18px !important;
   }
   .section-c .card-itm .paragraph-card {
-    text-align: center !important;
+    text-align: justify !important;
     font-size: 14px !important;
   }
   .section-d .flex-part {
