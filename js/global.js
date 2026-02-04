@@ -39,6 +39,14 @@ $(document).ready(function () {
     });
 });
 
-$(document).ready(function () {
-    AOS.init();
+// window.addEventListener('load', function () {
+//     AOS.init({
+//         once: true
+//     });
+// });
+
+window.addEventListener('load', function () {
+    setTimeout(function () {
+        AOS.init();
+    }, 200);
 });
