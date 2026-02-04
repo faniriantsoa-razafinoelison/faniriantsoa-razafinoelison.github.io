@@ -501,14 +501,14 @@ body {
     height: 100%;
   }
   .section-c .card-itm .domain {
-    font-size: 14px;
+    font-size: 14px !important;
   }
   .section-c .card-itm .title-card {
-    font-size: 18px;
+    font-size: 18px !important;
   }
   .section-c .card-itm .paragraph-card {
     text-align: center !important;
-    font-size: 14px;
+    font-size: 14px !important;
   }
   .section-d .flex-part {
     flex-direction: column-reverse;
