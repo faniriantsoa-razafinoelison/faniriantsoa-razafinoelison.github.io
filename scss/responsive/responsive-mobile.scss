@@ -11,6 +11,10 @@
     .p-graph {
         font-size: 14px !important;
         text-align: justify !important;
+
+        br {
+            display: none;
+        }
     }
 
     .bt {

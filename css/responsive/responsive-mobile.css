@@ -10,6 +10,9 @@
     font-size: 14px !important;
     text-align: justify !important;
   }
+  .p-graph br {
+    display: none;
+  }
   .bt {
     font-size: 14px !important;
   }
