@@ -39,12 +39,6 @@ $(document).ready(function () {
     });
 });
 
-// window.addEventListener('load', function () {
-//     AOS.init({
-//         once: true
-//     });
-// });
-
 window.addEventListener('load', function () {
     setTimeout(function () {
         AOS.init();

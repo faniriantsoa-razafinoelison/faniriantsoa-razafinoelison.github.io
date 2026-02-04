@@ -386,12 +386,24 @@ body {
     padding: 0px 20px;
   }
   .second-title {
-    font-size: 24px !important;
+    font-size: 22px !important;
+  }
+  .p-graph {
+    font-size: 14px;
+  }
+  .bt {
+    font-size: 14px;
+  }
+  .wrp-itm-nv-header {
+    gap: 15px;
+  }
+  .wrp-itm-nv-header .link-nv-header {
+    font-size: 14px;
   }
   .section-a {
     padding-top: 87px;
     height: auto !important;
-    min-height: calc(100vh - 100px);
+    min-height: calc(100vh - 80px);
   }
   .section-a .wrp-content {
     flex-direction: column-reverse;
@@ -401,10 +413,10 @@ body {
     align-items: center;
   }
   .section-a .wrp-content .first-content .first-content-txt-a {
-    font-size: 16px;
+    font-size: 18px;
   }
   .section-a .wrp-content .first-content .first-content-txt-b {
-    font-size: 22px;
+    font-size: 18px;
     text-align: center;
   }
   .section-a .wrp-content .second-content {
@@ -412,7 +424,7 @@ body {
   }
   .section-a .wrp-content .second-content .big-title {
     text-align: center;
-    font-size: 28px;
+    font-size: 24px;
   }
   .section-a .wrp-content .third-content {
     flex-direction: column;
@@ -426,18 +438,25 @@ body {
     text-align: center !important;
   }
   .section-a .wrp-content .third-content .count {
-    font-size: 24px !important;
+    font-size: 22px !important;
     text-align: center !important;
   }
+  .section-a .wrp-content .third-content .label {
+    text-align: center;
+    font-size: 14px;
+  }
   .section-a .wrp-avatar-picture {
-    max-width: 30vh !important;
-    max-height: 30vh !important;
+    max-width: 25vh !important;
+    max-height: 25vh !important;
   }
   .section-b .wrp-pills {
     flex-direction: column;
     gap: 0;
   }
   .section-b .wrp-pills::after {
+    display: none;
+  }
+  .section-b .wrp-pills::before {
     display: none;
   }
   .section-b .wrp-pills .nav {
@@ -449,13 +468,13 @@ body {
     flex-direction: column;
     border-radius: 20px;
   }
-  .section-b .wrp-pills .nav .nav-link::after {
-    display: none;
-  }
   .section-b .wrp-pills .nav .nav-link .info-pill {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+  .section-b .wrp-pills .nav .nav-link .info-pill .title-pill {
+    font-size: 18px;
   }
   .section-b .wrp-pills .nav .nav-link .info-pill .p-graph {
     max-width: none;
@@ -481,11 +500,15 @@ body {
     width: 100%;
     height: 100%;
   }
+  .section-c .card-itm .domain {
+    font-size: 14px;
+  }
   .section-c .card-itm .title-card {
-    font-size: 22px;
+    font-size: 18px;
   }
   .section-c .card-itm .paragraph-card {
     text-align: center !important;
+    font-size: 14px;
   }
   .section-d .flex-part {
     flex-direction: column-reverse;
@@ -501,7 +524,7 @@ body {
   }
   .section-d .flex-part .bloc-slide-txt {
     padding: 40px 20px !important;
-    min-height: 500px !important;
+    min-height: 350px !important;
   }
   .section-d .flex-part .bloc-slide-txt::after {
     background-size: 79%;
@@ -511,8 +534,11 @@ body {
   .section-d .contacts-section {
     align-items: center;
   }
+  .section-d .contacts-section .flex-txt-icon {
+    font-size: 14px;
+  }
   .section-d .domain {
-    font-size: 15px !important;
+    font-size: 14px !important;
   }
   .section-d .content-info-general {
     flex-direction: column;
@@ -527,9 +553,11 @@ body {
   }
   .footer-container .txt-footer .txt-a {
     text-align: center;
+    font-size: 14px;
   }
   .footer-container .txt-footer .txt-b {
     text-align: center;
+    font-size: 14px;
   }
 }
 html,

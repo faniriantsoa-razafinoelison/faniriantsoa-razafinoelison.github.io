@@ -5,13 +5,29 @@
     }
 
     .second-title {
-        font-size: 24px !important;
+        font-size: 22px !important;
+    }
+
+    .p-graph {
+        font-size: 14px;
+    }
+
+    .bt {
+        font-size: 14px;
+    }
+
+    .wrp-itm-nv-header {
+        gap: 15px;
+
+        .link-nv-header {
+            font-size: 14px;
+        }
     }
 
     .section-a {
         padding-top: 87px;
         height: auto !important;
-        min-height: calc(100vh - 100px);
+        min-height: calc(100vh - 80px);
 
         .wrp-content {
             flex-direction: column-reverse;
@@ -21,11 +37,11 @@
                 align-items: center;
 
                 .first-content-txt-a {
-                    font-size: 16px;
+                    font-size: 18px;
                 }
 
                 .first-content-txt-b {
-                    font-size: 22px;
+                    font-size: 18px;
                     text-align: center;
                 }
             }
@@ -35,7 +51,7 @@
 
                 .big-title {
                     text-align: center;
-                    font-size: 28px;
+                    font-size: 24px;
                 }
             }
 
@@ -53,15 +69,20 @@
                 }
 
                 .count {
-                    font-size: 24px !important;
+                    font-size: 22px !important;
                     text-align: center !important;
+                }
+
+                .label {
+                    text-align: center;
+                    font-size: 14px;
                 }
             }
         }
 
         .wrp-avatar-picture {
-            max-width: 30vh !important;
-            max-height: 30vh !important;
+            max-width: 25vh !important;
+            max-height: 25vh !important;
         }
     }
 
@@ -74,6 +95,10 @@
                 display: none;
             }
 
+            &::before {
+                display: none;
+            }
+
             .nav {
                 width: 100% !important;
                 gap: 20px;
@@ -83,16 +108,14 @@
                     flex-direction: column;
                     border-radius: 20px;
 
-                    &::after {
-                        display: none;
-                    }
-
                     .info-pill {
                         display: flex;
                         flex-direction: column;
                         align-items: center;
 
-                        .title-pill {}
+                        .title-pill {
+                            font-size: 18px;
+                        }
 
                         .p-graph {
                             max-width: none;
@@ -129,12 +152,17 @@
                 }
             }
 
+            .domain {
+                font-size: 14px;
+            }
+
             .title-card {
-                font-size: 22px;
+                font-size: 18px;
             }
 
             .paragraph-card {
                 text-align: center !important;
+                font-size: 14px;
             }
         }
     }
@@ -156,7 +184,7 @@
 
             .bloc-slide-txt {
                 padding: 40px 20px !important;
-                min-height: 500px !important;
+                min-height: 350px !important;
 
                 &::after {
                     background-size: 79%;
@@ -168,10 +196,14 @@
 
         .contacts-section {
             align-items: center;
+
+            .flex-txt-icon {
+                font-size: 14px;
+            }
         }
 
         .domain {
-            font-size: 15px !important;
+            font-size: 14px !important;
         }
 
         .content-info-general {
@@ -193,10 +225,12 @@
         .txt-footer {
             .txt-a {
                 text-align: center;
+                font-size: 14px;
             }
 
             .txt-b {
                 text-align: center;
+                font-size: 14px;
             }
         }
     }
