@@ -5,6 +5,7 @@
             overflow: hidden;
             height: 87px;
             transition: 0.2s;
+            align-items: normal;
 
             .hamburger-nav {
                 display: flex;
@@ -47,7 +48,7 @@
 
         &.show {
             .nv-header {
-                height: 311px;
+                height: 301px;
             }
         }
     }
