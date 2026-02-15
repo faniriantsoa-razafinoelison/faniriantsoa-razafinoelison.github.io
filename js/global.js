@@ -47,14 +47,16 @@ window.addEventListener('load', function () {
 
 
 
-$(window).on("scroll", function () {
-    var sectionTop = $("#section4").offset().top;
-    var scrollTop = $(window).scrollTop();
-    var headerHeight = $("header").outerHeight();
+if ($(window).width() > 992) {
+    $(window).on("scroll", function () {
+        var sectionTop = $("#section4").offset().top;
+        var scrollTop = $(window).scrollTop();
+        var headerHeight = $("header").outerHeight();
 
-    if (scrollTop + headerHeight >= sectionTop) {
-        $("header").addClass("hide-nav");
-    } else {
-        $("header").removeClass("hide-nav");
-    }
-});
+        if (scrollTop + headerHeight >= sectionTop) {
+            $("header").addClass("hide-nav");
+        } else {
+            $("header").removeClass("hide-nav");
+        }
+    });
+}
