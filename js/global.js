@@ -44,3 +44,17 @@ window.addEventListener('load', function () {
         AOS.init();
     }, 200);
 });
+
+
+
+$(window).on("scroll", function () {
+    var sectionTop = $("#section4").offset().top;
+    var scrollTop = $(window).scrollTop();
+    var headerHeight = $("header").outerHeight();
+
+    if (scrollTop + headerHeight >= sectionTop) {
+        $("header").addClass("hide-nav");
+    } else {
+        $("header").removeClass("hide-nav");
+    }
+});
