@@ -2,6 +2,10 @@
   padding: 12px 26px;
   border-radius: 5px;
   text-decoration: none;
+  transition: 0.2s;
+}
+.bt .icon {
+  vertical-align: middle;
 }
 
 .bt-primary {
@@ -16,13 +20,35 @@
 }
 
 .bt-gradient {
-  background: linear-gradient(to right, #1A95FA, #3FA8FF);
+  background: linear-gradient(90deg, rgba(0, 124, 226, 0.9215686275), rgba(100, 185, 255, 0.9137254902));
   color: white;
+  transition: background-position 0.3s ease, transform 0.3s ease;
+  background-size: 200% 200%;
+  background-position: left center;
+}
+.bt-gradient:hover {
+  background-position: right center;
 }
 
 .bt-icon {
   text-decoration: none;
   color: #D8D8D8;
+}
+
+.contact-bt .icon {
+  transform: rotate(180deg);
+  position: relative;
+  left: 0px;
+  transition: 0.3s;
+}
+.contact-bt:hover .icon {
+  left: 5px;
+}
+.contact-bt:active .icon {
+  left: 5px;
+}
+.contact-bt:focus .icon {
+  left: 5px;
 }
 
 /*# sourceMappingURL=bt.css.map */

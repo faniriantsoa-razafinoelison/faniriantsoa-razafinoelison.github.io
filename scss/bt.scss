@@ -2,6 +2,11 @@
     padding: 12px 26px;
     border-radius: 5px;
     text-decoration: none;
+    transition: 0.2s;
+
+    .icon {
+        vertical-align: middle;
+    }
 }
 
 .bt-primary {
@@ -16,11 +21,45 @@
 }
 
 .bt-gradient {
-    background: linear-gradient(to right, #1A95FA, #3FA8FF);
+    background: linear-gradient(90deg, #007ce2eb, #64b9ffe9);
     color: white;
+    transition: background-position 0.3s ease, transform 0.3s ease;
+    background-size: 200% 200%;
+    background-position: left center;
+
+    &:hover {
+        background-position: right center;
+    }
 }
 
 .bt-icon {
     text-decoration: none;
     color: #D8D8D8;
+}
+
+.contact-bt {
+    .icon {
+        transform: rotate(180deg);
+        position: relative;
+        left: 0px;
+        transition: 0.3s;
+    }
+
+    &:hover {
+        .icon {
+            left: 5px;
+        }
+    }
+
+    &:active {
+        .icon {
+            left: 5px;
+        }
+    }
+
+    &:focus {
+        .icon {
+            left: 5px;
+        }
+    }
 }
