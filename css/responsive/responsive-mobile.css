@@ -45,8 +45,10 @@
     padding-top: 10px;
   }
   .section-a .wrp-content .second-content .big-title {
-    text-align: center;
+    text-align: center !important;
     font-size: 24px;
+    width: 100% !important;
+    display: block;
   }
   .section-a .wrp-content .third-content {
     flex-direction: column;
